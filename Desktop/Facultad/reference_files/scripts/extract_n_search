@@ -1,0 +1,85 @@
+#!/bin/bash
+
+function extract_search {
+
+## $1 gff $2 out_mci $3 "atr_string" or file
+source  ./feature_extractor_test
+
+master_feature_extractor $1 $2 "$3"
+pwd
+cd ..
+
+#master_feature_extractor Ncaninum_LIV.gff3 out.blastp_evalue.mci.I45 "product ortholog_cluster"
+
+## $1 gff $4 faa $5 Mfasta $6 "search Regexp"
+source ./cluster_search
+
+master_function $1 $4 $5 "$6"
+pwd
+cd ..
+
+#master_function Ncaninum_LIV.gff3 Ncaninum_LIV.faa Ncaninum_LIV.Mfasta "SRS|srs|SAG"
+
+}
+
+function master_input2 {
+
+## Tamaño minimo de los cluster seleccionados y enteros
+## a tomar en cuenta al realizar la busqueda
+min_whole=""
+min_selection=""
+function usage()
+{
+
+#Solo se han implementado las opciones -s y -w
+echo "Usage: cluster_search [-r | --min-representation FLOAT ]
+			    [-s | --min-selection INT ]
+                            [-w | --min-whole INT]
+                            [-a | --faa FILE]
+                            [-g | --gff FILE]
+                            [-f | --fasta FILE]
+                            [-S | --search REGEXP]
+			    [-P | --plot ]"
+exit 2
+
+}
+## -a: Modo alternativo. Permite opciones largas con un solo guion (-)
+## -n: Indica a getopt el nombre del programa en ejecucion. Usado al momento de  devolver errores
+PARSED_ARGUMENTS=$( getopt -a -n cluster_search -o w:s:r:P --long min-whole:,min-selection:,min-representation:,plot -- "$@" )
+VALID_ARGUMENTS=$?
+
+if [ "$VALID_ARGUMENTS" != "0"  ]; then
+        usage
+fi
+
+echo "PARSED_ARGUMENTS is $PARSED_ARGUMENTS"
+eval set -- "$PARSED_ARGUMENTS"
+
+while :
+do
+        case "$1" in
+                -s | --min-selection) min_selection="$2" ; shift 2;;
+                -w | --min-whole) min_whole="$2" ; shift 2;;
+		-r | --min-representation) min_representation="$2"; shift 2;;
+		-P | --plot) plot="TRUE"; shift 1;;
+                --) shift 1; break ;;
+                *) echo "Unexpected option: $1"; usage
+        esac
+done
+
+echo "Final arguments: $@"
+echo "Min selection value: $min_selection"
+echo "Min whole value: $min_whole"
+echo "Min representation value: $min_representation"
+
+################ Ejecutando el resto del Script ###############
+
+extract_search "$@"
+
+
+}
+
+master_input2  all_gff out.blastp_evalue.mci.I45 --plot "Name description product" all_faa all_Mfasta "SRS|srs|SAG"
+
+
+#master_input2 -plot Ncaninum_LIV.gff3 out.blastp_evalue.mci.I45 "product ortholog_cluster" Ncaninum_LIV.faa Ncaninum_LIV.Mfasta "SRS|srs|SAG"
