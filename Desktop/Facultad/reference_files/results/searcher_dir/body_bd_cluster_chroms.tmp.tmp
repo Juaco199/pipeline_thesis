@@ -1,0 +1,101 @@
+                                                  
+cluster_chroms:                                   cluster_chroms compl:
+Nc_I:	5                                           Nc_II:	1
+Nc_II:	14                                         Nc_X:	2
+Nc_III:	8                                         
+Nc_IV:	1                                          
+Nc_X:	23                                          
+Nc_XII:	19                                        
+###BODYSEP###                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_I:	16                                          
+Nc_II:	8                                          
+Nc_V:	11                                          
+Nc_VIII:	7                                        
+###BODYSEP###                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_IV:	21                                         Nc_III:	1
+Nc_V:	1                                           
+###BODYSEP###                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_I:	2                                           
+Nc_V:	19                                          
+###BODYSEP###                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_I:	1                                           
+Nc_V:	17                                          
+Nc_XI:	1                                          
+Nc_XIII:	1                                        
+###BODYSEP###                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_I:	1                                           Nc_XI:	1
+###BODYSEP###                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_XIII:	1                                        Nc_V:	1
+                                                  Nc_VIII:	1
+###BODYSEP###                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_V:	5                                           
+###BODYSEP###                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_V:	3                                           
+###BODYSEP###                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_V:	3                                           Nc_VI:	2
+###BODYSEP###                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_I:	6                                           
+###BODYSEP###                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_VI:	2                                          Nc_VII:	1
+###BODYSEP###                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_IV:	1                                          
+###BODYSEP###                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_V:	1                                           
+###BODYSEP###                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_X:	3                                           
+###BODYSEP###                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_III:	1                                         
+###BODYSEP###                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_V:	3                                           Nc_II:	1
+###BODYSEP###                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_V:	1                                           
+###BODYSEP###                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_III:	1                                         
+###BODYSEP###                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_IV:	1                                          
+###BODYSEP###                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_V:	1                                           
+###BODYSEP###                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_II:	1                                          
+###BODYSEP###                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_XII:	1                                         
+###BODYSEP###                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_IX:	1                                          
+###BODYSEP###                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_I:	1                                           
+###BODYSEP###                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_I:	1                                           
+###BODYSEP###                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_IX:	1                                          
+###BODYSEP###                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_I:	1                                           
+###BODYSEP###                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_I:	1                                           

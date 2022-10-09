@@ -1,0 +1,656 @@
+###Cluster Sep###
+                                                  
+cluster_chroms:                                   cluster_chroms compl:
+Nc_I:	5                                           Nc_II:	1
+Nc_II:	14                                         Nc_X:	2
+Nc_III:	8                                         
+Nc_IV:	1                                          
+Nc_X:	23                                          
+Nc_XII:	19                                        
+
+                                                  
+description:                                      description compl:
+-----:	70                                         -----:	3
+SAG-related sequence SRS12A:	1                    hypothetical protein:	2
+SAG-related sequence SRS12B:	1                    
+SAG-related sequence SRS12D:	1                    
+SAG-related sequence SRS15A:	1                    
+SAG-related sequence SRS15B:	1                    
+SAG-related sequence SRS15C:	1                    
+SAG-related sequence SRS16A:	1                    
+SAG-related sequence SRS16B:	1                    
+SAG-related sequence SRS16C:	1                    
+SAG-related sequence SRS16E:	1                    
+SAG-related sequence SRS19A:	1                    
+SAG-related sequence SRS19B:	1                    
+SAG-related sequence SRS19C:	1                    
+SAG-related sequence SRS19D:	1                    
+SAG-related sequence SRS19F:	1                    
+SAG-related sequence SRS29A:	1                    
+SAG-related sequence SRS29B:	1                    
+SAG-related sequence SRS29C:	1                    
+SAG-related sequence SRS31B:	1                    
+SAG-related sequence SRS40A:	1                    
+SAG-related sequence SRS40B:	1                    
+SAG-related sequence SRS40D:	1                    
+SAG-related sequence SRS40E:	1                    
+SAG-related sequence SRS40F:	1                    
+SAG-related sequence SRS51:	1                     
+
+                                                  
+Name:                                             Name compl:
+-----:	95                                         -----:	5
+
+                                                  
+product:                                          product compl:
+-----:	25                                         -----:	2
+SAG1-related sequence 2, related:	5               AGAP008757-PA, related:	1
+SAG3 protein, related:	2                          Bradyzoite surface protein BSR4:	1
+srs domain-containing protein:	16                 hypothetical protein, conserved:	1
+SRS domain-containing protein:	45                 
+SRS domain containing protein, putative:	2        
+
+###Cluster Sep###
+                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_I:	16                                          
+Nc_II:	8                                          
+Nc_V:	11                                          
+Nc_VIII:	7                                        
+
+                                     
+description:                                      description compl:
+-----:	42                                         
+SAG-related sequence SRS10:	1                     
+SAG-related sequence SRS30A:	1                    
+SAG-related sequence SRS30C:	1                    
+SAG-related sequence SRS30D:	1                    
+SAG-related sequence SRS38A:	1                    
+SAG-related sequence SRS38B:	1                    
+SAG-related sequence SRS38C:	1                    
+SAG-related sequence SRS38D:	1                    
+SAG-related sequence SRS43:	1                     
+SAG-related sequence SRS54:	1                     
+
+                                     
+Name:                                             Name compl:
+-----:	52                                         
+
+                                     
+product:                                          product compl:
+-----:	10                                         
+SAG3 protein, related:	2                          
+srs domain-containing protein:	11                 
+SRS domain-containing protein:	28                 
+SRS domain containing protein, putative:	1        
+
+###Cluster Sep###
+                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_IV:	21                                         Nc_III:	1
+Nc_V:	1                                           
+
+                                     
+description:                                      description compl:
+-----:	22                                         -----:	1
+ADA2-A transcriptional co-activator SAGA comp     
+SAG-related sequence SRS18:	1                     
+SAG-related sequence SRS21:	1                     
+SAG-related sequence SRS52A:	1                    
+SAG-related sequence SRS52C:	1                    
+SAG-related sequence SRS52D:	1                    
+SAG-related sequence SRS52F:	1                    
+SAG-related sequence SRS53A:	1                    
+SAG-related sequence SRS53B:	1                    
+SAG-related sequence SRS53C:	1                    
+SAG-related sequence SRS53D:	1                    
+SAG-related sequence SRS53F:	1                    
+SAG-related sequence SRS60A:	1                    
+
+                                     
+Name:                                             Name compl:
+-----:	35                                         -----:	1
+
+                                     
+product:                                          product compl:
+-----:	13                                         Translationally-controlled tumor protein,rela
+SRS domain-containing protein:	22                 
+
+###Cluster Sep###
+                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_I:	2                                           
+Nc_V:	19                                          
+
+                                     
+description:                                      description compl:
+-----:	21                                         
+SAG-related sequence SRS36A:	1                    
+SAG-related sequence SRS36B:	1                    
+SAG-related sequence SRS36C:	1                    
+SAG-related sequence SRS36D:	1                    
+SAG-related sequence SRS36E:	1                    
+
+                                     
+Name:                                             Name compl:
+-----:	26                                         
+
+                                     
+product:                                          product compl:
+-----:	5                                          
+SAG3 protein, related:	2                          
+srs domain-containing protein:	11                 
+SRS domain-containing protein:	7                  
+SRS domain containing protein, putative:	1        
+
+###Cluster Sep###
+                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_I:	1                                           
+Nc_V:	17                                          
+Nc_XI:	1                                          
+Nc_XIII:	1                                        
+
+                                     
+description:                                      description compl:
+-----:	20                                         
+SAG-related sequence SRS23:	1                     
+SAG-related sequence SRS34A:	1                    
+
+                                     
+Name:                                             Name compl:
+-----:	22                                         
+
+                                     
+product:                                          product compl:
+-----:	2                                          
+putative SRS13:	1                                 
+srs domain-containing protein:	1                  
+SRS domain-containing protein:	18                 
+
+###Cluster Sep###
+                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_I:	1                                           Nc_XI:	1
+
+                                     
+description:                                      description compl:
+-----:	1                                          -----:	1
+SAG-related sequence SRS26A:	1                    hypothetical protein:	1
+SAG-related sequence SRS26B:	1                    
+SAG-related sequence SRS26C:	1                    
+SAG-related sequence SRS26E:	1                    
+SAG-related sequence SRS26I:	1                    
+SAG-related sequence SRS26J:	1                    
+SAG-related sequence SRS44:	1                     
+
+                                     
+Name:                                             Name compl:
+-----:	8                                          -----:	2
+
+                                     
+product:                                          product compl:
+-----:	7                                          -----:	1
+SRS domain-containing protein:	1                  hypothetical protein, conserved:	1
+
+###Cluster Sep###
+                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_XIII:	1                                        Nc_V:	1
+                                                  Nc_VIII:	1
+
+                                     
+description:                                      description compl:
+-----:	1                                          hypothetical protein:	1
+SAG-related sequence SRS22A:	1                    
+SAG-related sequence SRS22B:	1                    
+SAG-related sequence SRS22C:	1                    
+SAG-related sequence SRS22D:	1                    
+SAG-related sequence SRS22E:	1                    
+SAG-related sequence SRS22F:	1                    
+SAG-related sequence SRS22G:	1                    
+SAG-related sequence SRS22I:	1                    
+
+                                     
+Name:                                             Name compl:
+-----:	9                                          -----:	1
+
+                                     
+product:                                          product compl:
+-----:	8                                          -----:	1
+SRS domain containing protein, putative:	1        
+
+###Cluster Sep###
+                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_V:	5                                           
+
+                                     
+description:                                      description compl:
+-----:	5                                          
+SAG-related sequence SRS20A:	1                    
+SAG-related sequence SRS20C:	1                    
+
+                                     
+Name:                                             Name compl:
+-----:	7                                          
+
+                                     
+product:                                          product compl:
+-----:	2                                          
+SAG2 related antigen SAG2D, related:	1            
+SRS domain-containing protein:	4                  
+
+###Cluster Sep###
+                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_V:	3                                           
+
+                                     
+description:                                      description compl:
+-----:	3                                          
+SAG-related sequence SRS47A:	1                    
+SAG-related sequence SRS47B:	1                    
+SAG-related sequence SRS47C:	1                    
+SAG-related sequence SRS47D:	1                    
+
+                                     
+Name:                                             Name compl:
+-----:	7                                          
+
+                                     
+product:                                          product compl:
+-----:	4                                          
+SRS domain-containing protein:	1                  
+SRS domain containing protein, putative:	2        
+
+###Cluster Sep###
+                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_V:	3                                           Nc_VI:	2
+
+                                     
+description:                                      description compl:
+-----:	3                                          hypothetical protein:	1
+SAG-related sequence SRS48E:	1                    
+SAG-related sequence SRS48K:	1                    
+SAG-related sequence SRS48Q:	1                    
+
+                                     
+Name:                                             Name compl:
+-----:	6                                          -----:	1
+
+                                     
+product:                                          product compl:
+-----:	3                                          -----:	1
+SRS domain-containing protein:	3                  
+
+###Cluster Sep###
+                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_I:	6                                           
+
+                                     
+description:                                      description compl:
+-----:	6                                          
+SAG-related sequence SRS27B:	1                    
+
+                                     
+Name:                                             Name compl:
+-----:	7                                          
+
+                                     
+product:                                          product compl:
+-----:	1                                          
+SRS domain-containing protein:	6                  
+
+###Cluster Sep###
+                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_VI:	2                                          Nc_VII:	1
+
+                                     
+description:                                      description compl:
+-----:	2                                          -----:	2
+SAG-related sequence SRS35A:	1                    
+SAG-related sequence SRS35B:	1                    
+
+                                     
+Name:                                             Name compl:
+-----:	4                                          -----:	2
+
+                                     
+product:                                          product compl:
+-----:	2                                          hypothetical protein, conserved:	1
+SRS domain-containing protein:	2                  putative F-box domain-containing protein:	1
+
+###Cluster Sep###
+                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_IV:	1                                          
+
+                                     
+description:                                      description compl:
+-----:	1                                          
+SAG-related sequence SRS55A:	1                    
+SAG-related sequence SRS55F:	1                    
+SAG-related sequence SRS55M:	1                    
+SAG-related sequence SRS55N:	1                    
+
+                                     
+Name:                                             Name compl:
+-----:	5                                          
+
+                                     
+product:                                          product compl:
+-----:	4                                          
+SRS domain-containing protein:	1                  
+
+###Cluster Sep###
+                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_V:	1                                           
+
+                                     
+description:                                      description compl:
+-----:	1                                          
+SAG-related sequence SRS49A:	1                    
+SAG-related sequence SRS49B:	1                    
+SAG-related sequence SRS49C:	1                    
+SAG-related sequence SRS49D:	1                    
+
+                                     
+Name:                                             Name compl:
+-----:	5                                          
+
+                                     
+product:                                          product compl:
+-----:	4                                          
+SRS domain-containing protein:	1                  
+
+###Cluster Sep###
+                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_X:	3                                           
+
+                                     
+description:                                      description compl:
+-----:	3                                          
+SAG-related sequence SRS17A:	1                    
+SAG-related sequence SRS17B:	1                    
+
+                                     
+Name:                                             Name compl:
+-----:	5                                          
+
+                                     
+product:                                          product compl:
+-----:	2                                          
+srs domain-containing protein:	2                  
+SRS domain-containing protein:	1                  
+
+###Cluster Sep###
+                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_III:	1                                         
+
+                                     
+description:                                      description compl:
+-----:	1                                          
+SAG-related sequence SRS59B:	1                    
+SAG-related sequence SRS59J:	1                    
+SAG-related sequence SRS59K:	1                    
+
+                                     
+Name:                                             Name compl:
+-----:	4                                          
+
+                                     
+product:                                          product compl:
+-----:	3                                          
+SRS domain-containing protein:	1                  
+
+###Cluster Sep###
+                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_V:	3                                           Nc_II:	1
+
+                                     
+description:                                      description compl:
+SAG-related sequence SRS13:	1                     hypothetical protein:	2
+                                                  omega secalin, putative:	1
+
+                                     
+Name:                                             Name compl:
+-----:	1                                          -----:	3
+
+                                     
+product:                                          product compl:
+-----:	1                                          -----:	3
+
+###Cluster Sep###
+                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_V:	1                                           
+
+                                     
+description:                                      description compl:
+-----:	3                                          
+SAG-related sequence SRS45:	1                     
+
+                                     
+Name:                                             Name compl:
+-----:	4                                          
+
+                                     
+product:                                          product compl:
+-----:	1                                          
+SRS domain-containing protein:	2                  
+SRS domain containing protein, putative:	1        
+
+###Cluster Sep###
+                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_III:	1                                         
+
+                                     
+description:                                      description compl:
+-----:	1                                          
+SAG-related sequence SRS37A:	1                    
+SAG-related sequence SRS37B:	1                    
+
+                                     
+Name:                                             Name compl:
+-----:	3                                          
+
+                                     
+product:                                          product compl:
+-----:	2                                          
+srs domain-containing protein:	1                  
+
+###Cluster Sep###
+                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_IV:	1                                          
+
+                                     
+description:                                      description compl:
+SAG-related sequence SRS33:	1                     -----:	2
+
+                                     
+Name:                                             Name compl:
+-----:	1                                          -----:	2
+
+                                     
+product:                                          product compl:
+-----:	1                                          hypothetical protein, conserved:	2
+
+###Cluster Sep###
+                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_V:	1                                           
+
+                                     
+description:                                      description compl:
+-----:	1                                          HORMA domain-containing protein:	1
+SAG-related sequence SRS56:	1                     
+
+                                     
+Name:                                             Name compl:
+-----:	2                                          -----:	1
+
+                                     
+product:                                          product compl:
+-----:	1                                          -----:	1
+SRS domain-containing protein:	1                  
+
+###Cluster Sep###
+                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_II:	1                                          
+
+                                     
+description:                                      description compl:
+SAG-related sequence SRS57:	1                     hypothetical protein:	1
+
+                                     
+Name:                                             Name compl:
+-----:	1                                          -----:	1
+
+                                     
+product:                                          product compl:
+-----:	1                                          -----:	1
+
+###Cluster Sep###
+                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_XII:	1                                         
+
+                                     
+description:                                      description compl:
+-----:	1                                          
+SAG-related sequence SRS50:	1                     
+
+                                     
+Name:                                             Name compl:
+-----:	2                                          
+
+                                     
+product:                                          product compl:
+-----:	1                                          
+SRS domain-containing protein:	1                  
+
+###Cluster Sep###
+                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_IX:	1                                          
+
+                                     
+description:                                      description compl:
+-----:	1                                          
+SAG-related sequence SRS46:	1                     
+
+                                     
+Name:                                             Name compl:
+-----:	2                                          
+
+                                     
+product:                                          product compl:
+-----:	1                                          
+SRS domain-containing protein:	1                  
+
+###Cluster Sep###
+                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_I:	1                                           
+
+                                     
+description:                                      description compl:
+-----:	1                                          
+SAG-related sequence SRS42:	1                     
+
+                                     
+Name:                                             Name compl:
+-----:	2                                          
+
+                                     
+product:                                          product compl:
+-----:	1                                          
+SRS domain-containing protein:	1                  
+
+###Cluster Sep###
+                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_I:	1                                           
+
+                                     
+description:                                      description compl:
+-----:	1                                          
+SAG-related sequence SRS11:	1                     
+
+                                     
+Name:                                             Name compl:
+-----:	2                                          
+
+                                     
+product:                                          product compl:
+-----:	1                                          
+srs domain-containing protein:	1                  
+
+###Cluster Sep###
+                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_IX:	1                                          
+
+                                     
+description:                                      description compl:
+-----:	1                                          
+SAG-related sequence SRS14A:	1                    
+
+                                     
+Name:                                             Name compl:
+-----:	2                                          
+
+                                     
+product:                                          product compl:
+-----:	1                                          
+putative SRS14:	1                                 
+
+###Cluster Sep###
+                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_I:	1                                           
+
+                                     
+description:                                      description compl:
+-----:	1                                          
+SAG-related sequence SRS32:	1                     
+
+                                     
+Name:                                             Name compl:
+-----:	2                                          
+
+                                     
+product:                                          product compl:
+-----:	1                                          
+SRS domain-containing protein:	1                  
+
+###Cluster Sep###
+                                     
+cluster_chroms:                                   cluster_chroms compl:
+Nc_I:	1                                           
+
+                                     
+description:                                      description compl:
+-----:	1                                          
+SAG-related sequence SRS28:	1                     
+
+                                     
+Name:                                             Name compl:
+-----:	2                                          
+
+                                     
+product:                                          product compl:
+-----:	1                                          
+SRS domain-containing protein:	1                  
+

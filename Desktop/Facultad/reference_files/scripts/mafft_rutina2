@@ -1,0 +1,81 @@
+#!/bin/bash
+
+function mafft_work
+{
+# $1 Vector con los clusters de interes 
+# $2 Out.mci
+# $3 Mfasta
+# $4 Mfaa
+
+# $1 out_mci
+# $2 Mfaa
+## Debe estar la funcion my.Psplit.pl en la misma carpeta que mafft_work
+## La herramienta de alinemiento mafft debe de estar instalada previamente
+
+mkdir mafft_directorio2
+
+cp ./mafft_iqtree_bin/myPsplit.pl ./mafft_directorio2/
+cp $1 ./mafft_directorio2
+cp $2 ./mafft_directorio2
+#cp $3 ./mafft_directorio
+#cp $4 ./mafft_directorio
+
+cd ./mafft_directorio2
+
+mv $1 mci
+mv $2 Mfaa
+
+#mv $2 mci
+#mv $3 Mfasta
+#mv $4 Mfaa
+#local -n vector=$1
+#echo ${vector[0]}
+
+mkdir ./alings_faa
+
+IFS_old=$IFS
+IFS=$'\n'
+num=0
+for cluster in $(cat mci)
+do	
+	let num++
+        echo "Cluster Nº: $num"
+        echo $cluster > cluster_file1
+	#awk -v line=$cluster '(NR==line){ print $0 }' mci > cluster_file
+        
+        tr "\t" "\n" < cluster_file1 > cluster_file2
+       
+        ./myPsplit.pl Mfaa cluster_file2 split.faa
+        mafft split.faa > "./alings_faa/mafft_cluster_$num"
+
+done
+IFS=$IFS_old
+
+#rm Mfasta cluster_file mci myPsplit.pl split.fasta split.faa
+
+}
+
+function mafft_work2
+{
+if [ -d ./mafft_directorio2 ]
+then
+ echo -n "mafft_directorio2 ya existe, desea removerlo? (y|n): "
+ read input
+ case $input in
+         y|yes|YES) rm -r mafft_directorio2
+                    #mafft_work $1 $2 $3 $4;;
+		    mafft_work $1 $2;;
+         *)echo "mafft_work se ha detenido";;
+esac
+else
+ #mafft_work $1 $2 $3 $4
+ mafft_work $1 $2
+fi
+}
+
+#my_clusters=(26 13 33 28 22 15 8 7 )
+
+mafft_work2 ./out_mci_whole_oneline all_faa
+#mafft_work2  ./data_out_mci all_faa
+
+             
